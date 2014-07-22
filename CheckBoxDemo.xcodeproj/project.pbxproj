@@ -21,6 +21,8 @@
 		C7992587197E3057006FAB61 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7992569197E3056006FAB61 /* UIKit.framework */; };
 		C799258F197E3057006FAB61 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C799258D197E3057006FAB61 /* InfoPlist.strings */; };
 		C7992591197E3057006FAB61 /* CheckBoxDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7992590197E3057006FAB61 /* CheckBoxDemoTests.m */; };
+		C799259C197E30B8006FAB61 /* Checkbox.m in Sources */ = {isa = PBXBuildFile; fileRef = C799259B197E30B8006FAB61 /* Checkbox.m */; };
+		C799259F197E30D3006FAB61 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C799259E197E30D3006FAB61 /* CustomCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		C799258C197E3057006FAB61 /* CheckBoxDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CheckBoxDemoTests-Info.plist"; sourceTree = "<group>"; };
 		C799258E197E3057006FAB61 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C7992590197E3057006FAB61 /* CheckBoxDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheckBoxDemoTests.m; sourceTree = "<group>"; };
+		C799259A197E30B8006FAB61 /* Checkbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Checkbox.h; sourceTree = "<group>"; };
+		C799259B197E30B8006FAB61 /* Checkbox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Checkbox.m; sourceTree = "<group>"; };
+		C799259D197E30D3006FAB61 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		C799259E197E30D3006FAB61 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +118,10 @@
 		C799256B197E3056006FAB61 /* CheckBoxDemo */ = {
 			isa = PBXGroup;
 			children = (
+				C799259A197E30B8006FAB61 /* Checkbox.h */,
+				C799259D197E30D3006FAB61 /* CustomCell.h */,
+				C799259E197E30D3006FAB61 /* CustomCell.m */,
+				C799259B197E30B8006FAB61 /* Checkbox.m */,
 				C7992574197E3056006FAB61 /* AppDelegate.h */,
 				C7992575197E3056006FAB61 /* AppDelegate.m */,
 				C7992577197E3056006FAB61 /* Main.storyboard */,
@@ -249,9 +259,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C799259C197E30B8006FAB61 /* Checkbox.m in Sources */,
 				C799257C197E3056006FAB61 /* ViewController.m in Sources */,
 				C7992576197E3056006FAB61 /* AppDelegate.m in Sources */,
 				C7992572197E3056006FAB61 /* main.m in Sources */,
+				C799259F197E30D3006FAB61 /* CustomCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
