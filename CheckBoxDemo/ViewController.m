@@ -19,6 +19,15 @@
     [super viewDidLoad];
     _dataArray=[[NSArray alloc]initWithObjects:@"hello",@"hi",nil];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    
+    
+    
+    NSLog(@"Hello");
+    NSLog(@"Hello");
+    NSLog(@"Hello");
+    NSLog(@"Hello");NSLog(@"Hello");
+    
 }
 #pragma mark -
 #pragma mark UITableViewDataSource
